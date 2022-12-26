@@ -23,9 +23,7 @@ void	ft_free(t_stack	*stack_a)
 int	main(int arc, char **arv)
 {
 	t_stack	*stack_a;
-	int		i;
-
-	i = 0;
+	
 	if (arc < 2)
 		return (0);
 	stack_a = malloc(sizeof(t_stack));
