@@ -95,7 +95,7 @@ char	**gather_argument(char **stack_a, int number_argument)
 	gather_string = malloc (1);
 	if (!gather_string)
 		exit(0);
-	while (stack_a[i + 1] != 0)
+	while (stack_a[i + 1])
 	{
 		if (ft_strlen(stack_a[i + 1]) == 0)
 			function_error();
